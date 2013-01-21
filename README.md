@@ -18,7 +18,7 @@ Simply call:
 
 to load available themes and activate a specific theme.
 
-MIT License
+License (MIT)
 =====
 Copyright (c) <year> <copyright holders>
 
