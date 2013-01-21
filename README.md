@@ -1,7 +1,7 @@
 Muren
 =====
 
-Muren is an C# .NET implementation of a skinning library for WPF applications.  
+Muren is a C#.NET implementation of a skinning library for WPF applications.  
 Using Muren, you can manage one or more skins for a WPF application.  These skins can be in separate
 assemblies, making it easy to swap skins at design time, or even at runtime.
 
