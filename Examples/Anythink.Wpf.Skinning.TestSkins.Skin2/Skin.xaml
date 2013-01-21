@@ -1,0 +1,19 @@
+﻿<ResourceDictionary
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ResourceDictionary.MergedDictionaries>
+        
+        <ResourceDictionary>
+            <!-- Define FontFamily at this level so it is available to all controls -->
+            <FontFamily x:Key="NormalFontFamily">Comic Sans MS</FontFamily>
+        </ResourceDictionary>
+        
+        <ResourceDictionary Source="/TestSkin.Skin2;component/xColors.xaml"/>
+        <ResourceDictionary Source="/TestSkin.Skin2;component/xBrushes.xaml"/>
+        <ResourceDictionary Source="/TestSkin.Skin2;component/xControls.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+
+
+    
+</ResourceDictionary>

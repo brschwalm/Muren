@@ -1,0 +1,30 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <SolidColorBrush x:Key="NormalBackgroundBrush" Color="{DynamicResource NormalBackgroundColor}"/>
+    <SolidColorBrush x:Key="NormalForegroundBrush" Color="{DynamicResource NormalForegroundColor}"/>
+    <SolidColorBrush x:Key="NormalBorderBrush" Color="{DynamicResource NormalBorderColor}"/>
+    <SolidColorBrush x:Key="LightBackgroundBrush" Color="{DynamicResource LightBackgroundColor}"/>
+    <SolidColorBrush x:Key="DarkBackgroundBrush" Color="{DynamicResource DarkBackgroundColor}"/>
+
+    <SolidColorBrush x:Key="ButtonForegroundBrush" Color="{DynamicResource LightBackgroundColor}"/>
+    
+    <LinearGradientBrush x:Key="GradientBackgroundBrush" StartPoint="0,0" EndPoint="1,0">
+        <LinearGradientBrush.GradientStops>
+            <GradientStop Offset="0" Color="{DynamicResource NormalBackgroundColor}"/>
+            <GradientStop Offset="1" Color="{DynamicResource NormalBorderColor}"/>
+        </LinearGradientBrush.GradientStops>
+    </LinearGradientBrush>
+
+    <RadialGradientBrush x:Key="RadialGradientBackgroundBrush" GradientOrigin="0.75,0.25">
+        <GradientStop Offset="0" Color="{DynamicResource NormalBackgroundColor}"/>
+        <GradientStop Offset="0.5" Color="{DynamicResource NormalBorderColor}"/>
+        <GradientStop Offset="1" Color="{DynamicResource NormalForegroundColor}"/>
+    </RadialGradientBrush>
+    
+    <RadialGradientBrush x:Key="RadialGradientBackgroundHoverBrush" GradientOrigin="0.5,0.25">
+        <GradientStop Offset="0" Color="{DynamicResource NormalBackgroundColor}"/>
+        <GradientStop Offset="0.5" Color="{DynamicResource NormalBorderColor}"/>
+        <GradientStop Offset="1" Color="{DynamicResource NormalForegroundColor}"/>
+    </RadialGradientBrush>
+</ResourceDictionary>

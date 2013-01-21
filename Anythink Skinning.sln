@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anythink.Wpf.Skinning", "Anythink.Wpf.Skinning.csproj", "{9A5C11F8-7E94-437F-AA3B-BC7024A45E63}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{395574F5-F321-42D7-B4D8-FAD16BE4E042}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSkin.Skin1", "Examples\Anythink.Wpf.Skinning.TestSkins.Skin1\TestSkin.Skin1.csproj", "{8C8CBBF7-A58E-41D5-9A22-9FF9FD035612}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSkin.Skin2", "Examples\Anythink.Wpf.Skinning.TestSkins.Skin2\TestSkin.Skin2.csproj", "{4F3DAC6F-6A24-4D93-8AF6-7E68D3210D05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSkin.Skin3", "Examples\Anythink.Wpf.Skinning.TestSkins.Skin3\TestSkin.Skin3.csproj", "{BACAAEE5-9CD3-4EA6-9F37-9C8C9E8B8485}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSkins.Skin4", "Examples\Anythink.Wpf.Skinning.TestSkins.Skin4\TestSkins.Skin4.csproj", "{1A39C6DE-726E-4CB7-A1E8-131BC37A4890}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anythink.Wpf.Skinning.TestWindow", "Examples\Anythink.Wpf.Skinning.TestWindow\Anythink.Wpf.Skinning.TestWindow.csproj", "{55F46359-9F56-4780-AA74-B49769F6D97B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A5C11F8-7E94-437F-AA3B-BC7024A45E63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A5C11F8-7E94-437F-AA3B-BC7024A45E63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A5C11F8-7E94-437F-AA3B-BC7024A45E63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A5C11F8-7E94-437F-AA3B-BC7024A45E63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C8CBBF7-A58E-41D5-9A22-9FF9FD035612}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C8CBBF7-A58E-41D5-9A22-9FF9FD035612}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C8CBBF7-A58E-41D5-9A22-9FF9FD035612}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C8CBBF7-A58E-41D5-9A22-9FF9FD035612}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F3DAC6F-6A24-4D93-8AF6-7E68D3210D05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F3DAC6F-6A24-4D93-8AF6-7E68D3210D05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F3DAC6F-6A24-4D93-8AF6-7E68D3210D05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F3DAC6F-6A24-4D93-8AF6-7E68D3210D05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BACAAEE5-9CD3-4EA6-9F37-9C8C9E8B8485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BACAAEE5-9CD3-4EA6-9F37-9C8C9E8B8485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BACAAEE5-9CD3-4EA6-9F37-9C8C9E8B8485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BACAAEE5-9CD3-4EA6-9F37-9C8C9E8B8485}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A39C6DE-726E-4CB7-A1E8-131BC37A4890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A39C6DE-726E-4CB7-A1E8-131BC37A4890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A39C6DE-726E-4CB7-A1E8-131BC37A4890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A39C6DE-726E-4CB7-A1E8-131BC37A4890}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55F46359-9F56-4780-AA74-B49769F6D97B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55F46359-9F56-4780-AA74-B49769F6D97B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55F46359-9F56-4780-AA74-B49769F6D97B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55F46359-9F56-4780-AA74-B49769F6D97B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8C8CBBF7-A58E-41D5-9A22-9FF9FD035612} = {395574F5-F321-42D7-B4D8-FAD16BE4E042}
+		{4F3DAC6F-6A24-4D93-8AF6-7E68D3210D05} = {395574F5-F321-42D7-B4D8-FAD16BE4E042}
+		{BACAAEE5-9CD3-4EA6-9F37-9C8C9E8B8485} = {395574F5-F321-42D7-B4D8-FAD16BE4E042}
+		{1A39C6DE-726E-4CB7-A1E8-131BC37A4890} = {395574F5-F321-42D7-B4D8-FAD16BE4E042}
+	EndGlobalSection
+EndGlobal

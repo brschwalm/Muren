@@ -1,0 +1,34 @@
+﻿<Window x:Class="Anythink.Wpf.Skinning.TestWindow.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Loaded="Window_Loaded"
+    Style="{DynamicResource NormalWindowStyle}"
+    Title="Main Skin Test Window" Height="300" Width="300">
+    <Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <ListBox x:Name="SkinListBox" SelectionChanged="SkinListBox_SelectionChanged" DisplayMemberPath="Name"/>
+            <ComboBox x:Name="FontSizeCombo" SelectionChanged="FontSizeCombo_SelectionChanged" Grid.Row="1"/>
+
+            <StackPanel Grid.Column="1" Grid.RowSpan="2" Background="#FF514D47">
+                <TextBlock Text="This is a textblock"/>
+                <TextBox Grid.Row="0" Text="This is a textbox"/>
+                <Button Grid.Row="1" Content="Launch Child Window" Click="Button_Click"/>
+                <ListBox>
+                    <ListBoxItem>Item 1</ListBoxItem>
+                    <ListBoxItem>Item 2</ListBoxItem>
+                    <ListBoxItem>Item 3</ListBoxItem>
+                </ListBox>
+
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

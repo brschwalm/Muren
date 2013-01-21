@@ -1,0 +1,65 @@
+﻿<ResourceDictionary
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+
+    <Color x:Key="NormalBackgroundColor">#FF000000</Color>
+    <Color x:Key="NormalForegroundColor">#FFFFFFFF</Color>
+    <Color x:Key="NormalBorderColor">Gray</Color>
+    
+    <SolidColorBrush x:Key="NormalBackgroundBrush" Color="{DynamicResource NormalBackgroundColor}"/>
+    <SolidColorBrush x:Key="NormalForegroundBrush" Color="{DynamicResource NormalForegroundColor}"/>
+    <SolidColorBrush x:Key="NormalBorderBrush" Color="{DynamicResource NormalBorderColor}"/>
+    
+    <LinearGradientBrush x:Key="GradientBackgroundBrush" StartPoint="0,0" EndPoint="1,0">
+        <LinearGradientBrush.GradientStops>
+            <GradientStop Offset="0" Color="{DynamicResource NormalBackgroundColor}"/>
+            <GradientStop Offset="1" Color="{DynamicResource NormalBorderColor}"/>
+        </LinearGradientBrush.GradientStops>
+    </LinearGradientBrush>
+    
+    <Style TargetType="{x:Type Window}">
+        <Setter Property="Background" Value="{DynamicResource NormalBackgroundBrush}"/>
+        <Setter Property="Foreground" Value="{DynamicResource NormalForegroundBrush}"/>
+    </Style>
+    
+    <Style x:Key="NormalWindowStyle" TargetType="{x:Type Window}">
+        <Setter Property="Background" Value="{DynamicResource NormalBackgroundBrush}"/>
+        <Setter Property="Foreground" Value="{DynamicResource NormalForegroundBrush}"/>
+    </Style>
+    
+    <Style TargetType="{x:Type TextBlock}">
+        <Setter Property="Foreground" Value="{DynamicResource NormalForegroundBrush}"/>
+        <Setter Property="Margin" Value="2.5"/>
+        <Setter Property="HorizontalAlignment" Value="Right"/>
+    </Style>
+    
+    <Style TargetType="{x:Type Button}">
+        <Setter Property="Background" Value="{DynamicResource NormalBackgroundBrush}"/>
+        <Setter Property="Foreground" Value="{DynamicResource NormalForegroundBrush}"/>
+        <Setter Property="BorderBrush" Value="{DynamicResource NormalBorderBrush}"/>
+        <Setter Property="Margin" Value="5"/>
+        <Setter Property="MinWidth" Value="75"/>
+    </Style>
+    
+    <Style TargetType="{x:Type TextBox}">
+        <Setter Property="Background" Value="{DynamicResource NormalBackgroundBrush}"/>
+        <Setter Property="Foreground" Value="{DynamicResource NormalForegroundBrush}"/>
+        <Setter Property="BorderBrush" Value="{DynamicResource NormalBorderBrush}"/>
+        <Setter Property="Margin" Value="2.5,5"/>
+        <Setter Property="FontSize" Value="{DynamicResource NormalFontSize}"/>
+    </Style>
+    
+    <Style TargetType="{x:Type ListBox}">
+        <Setter Property="Background" Value="{DynamicResource GradientBackgroundBrush}"/>
+    </Style>
+
+
+    <Style TargetType="{x:Type ComboBox}">
+        <Setter Property="Background" Value="{DynamicResource NormalBackgroundBrush}"/>
+        <Setter Property="Foreground" Value="{DynamicResource NormalForegroundBrush}"/>
+        <Setter Property="Margin" Value="2.5,5"/>
+        <Setter Property="FontSize" Value="{DynamicResource NormalFontSize}"/>
+    </Style>
+
+</ResourceDictionary>
